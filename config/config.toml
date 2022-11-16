@@ -1,0 +1,15 @@
+[mysql]
+dsn = "root:newpassword@tcp(127.0.0.1:3306)/my_mysql?charset=utf8mb4&parseTime=True&loc=Local"
+active = 5
+idle = 5
+idleTimeout = 14000
+
+[redis]
+addrs = ["127.0.0.1:6379"]
+db = 1
+
+[logger]
+path = "./logs/"
+sqlPrefix = "sql_"
+accessPrefix = "access_"
+normalPrefix = "normal_"
