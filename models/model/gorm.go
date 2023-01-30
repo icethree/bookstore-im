@@ -1,7 +1,7 @@
 package model
 
 import (
-	"bookstore_im/common/log"
+	"bookstore-im/common/log"
 	"context"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
